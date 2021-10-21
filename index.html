@@ -8,17 +8,35 @@
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/example.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
 <header id="home">
-<nav>
+<!-- <nav>
 <ul>
 <li class="box"><a href="#home">Home</a></li>
 <li class="box"><a href="#aboutMe">About Me</a></li>
 <li class="box"><a href="#projects">Projects</a></li>
 <li class="box"><a href="#contactMe">Contact Me</a></li>
 </ul>
-</nav>
+</nav> -->
+<!-- Bootstrap test  -->
+<ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#home">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#aboutMe">About Me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#projects">Projects</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#contactMe">Contact</a>
+      </li>
+  </ul>
+<!-- Bootstrap test -->
 </header>
 <section class="Main">
 <div class="Me">
@@ -39,22 +57,33 @@
 <h1 id="projects">Projects</h1>
 <section id="project1">
     <!-- Do not have any projects to display yet. Using random projects for now -->
-<button><a href="https://kembo001.github.io/homework-semantic-tagging/"target="_blank"><img class="img2" src="img/Website2.png" alt=""></a></button>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas. Volutpat lacus laoreet non curabitur gravida arcu. Cras ornare arcu dui vivamus arcu felis bibendum ut. Nam aliquam sem et tortor.</p>
+<button><a href="https://kembo001.github.io/mealPlan/"target="_blank"><img class="img2" src="img/MealPlan ss.png" alt=""></a></button>
+<p>In this project. We created a meal plan website to help you and decide what to eat a cook for your next dinner. It first ask you which cuisine you'd like to eat, then gives you information about the cuisine and also gives you the ingredieants so you can go out and start cooking your new cuisine!</p>
 </section>
 <section id="project2">
-    <button><a href="https://kembo001.github.io/homework-semantic-tagging/"target="_blank"><img class="img2" src="img/Website1.png" alt=""></a></button>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Ut eu sem integer vitae justo. In tellus integer feugiat scelerisque varius morbi enim nunc. Diam vulputate ut pharetra sit amet aliquam. </p>
+    <button><a href="https://kembo001.github.io/mathQuiz/"target="_blank"><img class="img2" src="img/Math Quiz ss.png" alt=""></a></button>
+    <p>For this project, I created a math quiz app that test your skills. It a a timed quiz and if you get an answer wrong, it'll subtract 3 seconds from the timer. This site will help students master their math skills!</p>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Ut eu sem integer vitae justo. In tellus integer feugiat scelerisque varius morbi enim nunc. Diam vulputate ut pharetra sit amet aliquam. </p> -->
 </section>
 <section id="project3">
-<button><a href="https://kembo001.github.io/homework-semantic-tagging/"target="_blank"><img class="img2" src="img/Website3.png" alt=""></a></button>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Ut eu sem integer vitae justo. In tellus integer feugiat scelerisque varius morbi enim nunc. Diam vulputate ut pharetra sit amet aliquam. </p>
+<button><a href="https://kembo001.github.io/weatherApp/"target="_blank"><img class="img2" src="img/Weather ss.png" alt=""></a></button>
+<p>In this project, I created a weather app to figure out the weather in your area. In a rush but don't know whether to wear a jacket or shorts? This website will tell you exactly what the temperature is humidity AND wind.</p>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Ut eu sem integer vitae justo. In tellus integer feugiat scelerisque varius morbi enim nunc. Diam vulputate ut pharetra sit amet aliquam. </p> -->
 </section>
 </section>
 </section>
 <footer id="contactMe">
 <h1>Contact me</h1>
-<p>If you are interested on working together in the future. Please feel free to contact me down below anytime.</p>
+<p>If you are interested on working together in the future. Please feel free to contact me down below anytime, or leave a short messge.</p>
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Your email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">How could I help?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <button type="button" class="btn btn-primary">Submit</button>
+  </div>
 <section class="contactMe">
 <a href="mailto:BrandonKemboi87@gmail.com">Email</a>
 <a href="https://github.com/kembo001"target="_blank">Github</a></li>

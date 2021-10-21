@@ -9,6 +9,9 @@
     text-align: center;
     line-height: 2;
     }
+    .nav{
+        position: fixed;
+    }
     
     header nav{
     display: flex;
